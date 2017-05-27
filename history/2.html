@@ -8,13 +8,10 @@
 <div id="likeArea">
 
 </div>
-<script src="react.js"></script>
 <script src="./index.js"></script>
 <script>
     let likeArea = document.querySelector('#likeArea');
-    //likeArea.appendChild(new LikeButton().render());
-    let likeButton = new LikeButton({name:"张三"});
-    likeButton.$mount(likeArea);
+    likeArea.appendChild(new LikeButton().render());
 </script>
 </body>
 </html>
